@@ -24,7 +24,7 @@ const Navbar = ({ onBooking }: NavbarProps) => {
           <div className="w-8 h-8 rounded-full hero-gradient flex items-center justify-center">
             <Icon name="Heart" size={16} className="text-white" />
           </div>
-          <span className="font-cormorant text-xl font-bold text-primary">МедиКлиник</span>
+          <span className="font-cormorant text-xl font-bold text-primary">Рубра</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-6">
