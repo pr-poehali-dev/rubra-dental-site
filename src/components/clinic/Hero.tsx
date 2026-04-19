@@ -6,10 +6,10 @@ interface HeroProps {
 
 const Hero = ({ onBooking }: HeroProps) => {
   const stats = [
-    { value: "15+", label: "лет работы" },
-    { value: "50+", label: "специалистов" },
-    { value: "30 000+", label: "пациентов" },
-    { value: "98%", label: "довольных клиентов" },
+    { value: "15+", label: "лет практики" },
+    { value: "20+", label: "стоматологов" },
+    { value: "30 000+", label: "улыбок" },
+    { value: "99%", label: "безболезненно" },
   ];
 
   return (
@@ -23,16 +23,16 @@ const Hero = ({ onBooking }: HeroProps) => {
         <div className="max-w-2xl">
           <div className="inline-flex items-center gap-2 bg-white/15 text-white text-sm px-4 py-2 rounded-full mb-6">
             <Icon name="Shield" size={14} />
-            Лицензированная медицинская клиника
+            Стоматология премиум-класса
           </div>
 
           <h1 className="font-cormorant text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
-            Ваше здоровье —<br />
-            <span className="text-white/80">наша забота</span>
+            Красивая улыбка —<br />
+            <span className="text-white/80 italic">ваша визитная карточка</span>
           </h1>
 
           <p className="text-white/80 text-lg mb-8 leading-relaxed">
-            Современная клиника с опытными врачами, передовым оборудованием и индивидуальным подходом к каждому пациенту.
+            Современная стоматологическая клиника «РУБРА». Безболезненное лечение, профессиональная гигиена, имплантация и эстетическая реставрация зубов.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3">

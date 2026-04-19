@@ -22,9 +22,9 @@ const Navbar = ({ onBooking }: NavbarProps) => {
       <div className="container flex items-center justify-between h-16">
         <a href="#home" className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-full hero-gradient flex items-center justify-center">
-            <Icon name="Heart" size={16} className="text-white" />
+            <Icon name="Sparkles" size={16} className="text-white" />
           </div>
-          <span className="font-cormorant text-xl font-bold text-primary">Рубра</span>
+          <span className="font-cormorant text-xl font-bold text-primary tracking-wider">РУБРА</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-6">

@@ -7,45 +7,45 @@ interface DoctorsProps {
 const Doctors = ({ onBooking }: DoctorsProps) => {
   const doctors = [
     {
-      name: "Елена Сергеевна Морозова",
-      specialty: "Терапевт, кардиолог",
+      name: "Анна Сергеевна Морозова",
+      specialty: "Стоматолог-терапевт, эндодонтист",
       experience: "18 лет опыта",
-      category: "Высшая категория",
-      initials: "ЕМ",
+      category: "Лечение под микроскопом",
+      initials: "АМ",
     },
     {
       name: "Андрей Викторович Петров",
-      specialty: "Невролог",
+      specialty: "Хирург-имплантолог",
       experience: "14 лет опыта",
-      category: "Первая категория",
+      category: "Сертификат Nobel Biocare",
       initials: "АП",
     },
     {
       name: "Ольга Николаевна Белова",
-      specialty: "Офтальмолог",
+      specialty: "Стоматолог-ортопед",
       experience: "12 лет опыта",
-      category: "Высшая категория",
+      category: "Виниры и коронки E-max",
       initials: "ОБ",
     },
     {
       name: "Дмитрий Александрович Козлов",
-      specialty: "Ортопед, хирург",
-      experience: "20 лет опыта",
-      category: "Профессор",
+      specialty: "Ортодонт",
+      experience: "15 лет опыта",
+      category: "Сертифицированный специалист Invisalign",
       initials: "ДК",
     },
     {
       name: "Мария Ивановна Соколова",
-      specialty: "Эндокринолог",
+      specialty: "Детский стоматолог",
       experience: "11 лет опыта",
-      category: "Первая категория",
+      category: "Лечение в игровой форме",
       initials: "МС",
     },
     {
       name: "Игорь Петрович Новиков",
-      specialty: "Гастроэнтеролог",
-      experience: "16 лет опыта",
-      category: "Высшая категория",
+      specialty: "Гигиенист, стоматолог-терапевт",
+      experience: "9 лет опыта",
+      category: "Air Flow, эстетика",
       initials: "ИН",
     },
   ];
@@ -56,10 +56,10 @@ const Doctors = ({ onBooking }: DoctorsProps) => {
         <div className="text-center mb-12">
           <span className="text-sm font-semibold text-accent uppercase tracking-wider">Команда</span>
           <h2 className="font-cormorant text-4xl font-bold text-foreground mt-2 mb-4">
-            Наши врачи
+            Наши стоматологи
           </h2>
           <p className="text-foreground/60 max-w-xl mx-auto">
-            Опытные специалисты с российскими и международными сертификатами. Регулярно повышают квалификацию.
+            Врачи с российскими и международными сертификатами. Регулярно обучаются в клиниках Германии, Швейцарии и Израиля.
           </p>
         </div>
 
